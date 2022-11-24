@@ -15,5 +15,6 @@ public class Main {
         Student.searchStudent(studentsList, "Alex");
         System.out.println(Student.appointmentOfHeadman(studentsList, "Alex"));
         System.out.println("Староста группы: " + Student.getIsElder());
+        Student.searchStudent(studentsList, "Arsen");
     }
 }
